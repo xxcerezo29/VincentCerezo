@@ -66,6 +66,10 @@ body{
     -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.54);
     -moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.54);
     box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.54);
+    
+}
+.container:hover{
+    cursor: pointer;
 }
 .flex{
     display: flex;
@@ -80,7 +84,7 @@ body{
     width: 600;
     height: 400;
 }
-.container h1, h4{
+.container h1, h4, h6{
     color: white;
     letter-spacing: 3.5px;
 }
